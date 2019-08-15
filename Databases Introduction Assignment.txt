@@ -10,7 +10,7 @@
 - 98.7
 - $15.99
 
-A: String, Integer, Object, Float, Float
+A: String, Integer, Date, Float, Decimal (if you want the $ sign, it seems you'd store that separately with a VARCHAR). 
 
 > Explain when a database would be used. Explain when a text file would be used.
 
