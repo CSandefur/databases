@@ -75,7 +75,7 @@ ALTER TABLE weddingdinner DROP COLUMN tablenumber;
 
 ```
 CREATE TABLE librarybooks (
-  isbn integer,
+  isbn bigint,
   title text,
   author text,
   genre text,
